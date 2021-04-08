@@ -1,32 +1,41 @@
 package br.puc.ed.pilha;
 
 public class PilhaListaEncadeada implements Pilha {
+    public Node inicio = null;
+    private int count = 0;
 
     public PilhaListaEncadeada() {
+        // TODO
     }
 
     @Override
     public void push(Character e) {
-
+        inicio = new Node(e, inicio);
+        count++;
     }
 
     @Override
     public Character pop() {
-        return null;
+        if(count == 0) return null;
+        Node n = inicio; //Cache Node
+        inicio = inicio.getAnterior();
+        count--;
+        return n.getCharacter();
     }
-
+    
     @Override
     public Character top() {
-        return null;
+        if(count == 0) return null;
+        return inicio.getCharacter();
     }
 
     @Override
     public Integer size() {
-        return null;
+        return count;
     }
 
     @Override
     public Boolean isEmpty() {
-        return null;
+        return (count == 0);
     }
 }

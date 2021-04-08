@@ -7,8 +7,8 @@ public class MainApp {
             System.out.println(); //Apenas para limpar meu console
         }
 
-        Pilha pilha = new PilhaArray(10);
-        // Pilha pilha = new PilhaListaEncadeada();
+        // Pilha pilha = new PilhaArray(10);
+        Pilha pilha = new PilhaListaEncadeada();
 
         pilha.push('G');
         pilha.push('J');
@@ -21,6 +21,7 @@ public class MainApp {
         pilha.push('O');
         System.out.println(String.valueOf(pilha.pop()) + "\tExpected: O");
         System.out.println(String.valueOf(pilha.pop()) + "\tExpected: G");
+        System.out.println(String.valueOf(pilha.pop()) + "\tExpected: null");
 
     }
 }
