@@ -2,11 +2,11 @@ package br.puc.ed.pilha;
 
 public interface Pilha {
 
-    void push(String e);
+    void push(Character e);
 
-    String pop();
+    Character pop();
 
-    String top();
+    Character top();
 
     Integer size();
 

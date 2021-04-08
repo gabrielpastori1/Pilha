@@ -6,17 +6,17 @@ public class PilhaListaEncadeada implements Pilha {
     }
 
     @Override
-    public void push(String e) {
+    public void push(Character e) {
 
     }
 
     @Override
-    public String pop() {
+    public Character pop() {
         return null;
     }
 
     @Override
-    public String top() {
+    public Character top() {
         return null;
     }
 
