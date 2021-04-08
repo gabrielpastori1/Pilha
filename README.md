@@ -12,7 +12,7 @@ Problemas Estruturados em Computação do curso de Engenharia de Software da PUC
 1) [X] 1. Implemente a PilhaArray baseado nos projetos de arrays implementados anteriormente.
 2) [X] 2. Implemente a PilhaListaEncadeada baseada nos projetos de lista encadeada implementados
    anteriormente.
-3) [ ] 3. AFI3: Crie o método reverse na classe StringUtils, que recebe uma String como parâmetro e retorna
+3) [X] 3. AFI3: Crie o método reverse na classe StringUtils, que recebe uma String como parâmetro e retorna
    a representação reversa dessa String, conforme demonstração nos slides 8-15.
 4) [ ] 4. AFI3: Iniciando com uma pilha vazia, se você executar 25 operações push, 12 operações top e 10
    operações pop, qual o tamanho final da lista?
