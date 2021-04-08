@@ -19,7 +19,7 @@ Problemas Estruturados em Computação do curso de Engenharia de Software da PUC
    Resposta:
 5) AFI3: Se você executar as seguintes operações em uma pilha vazia:
    push(5), push(3), pop(), push(2), push(8), pop(), pop(), push(9), push(1), pop(), push(7), push(
-   6), pop(), pop(), push(4), pop(), pop()
+   6), pop(), pop(), push(4), pop(), pop()  
    Qual será o conteúdo da pilha ao final dessas operações?  
    Resposta:
 6) EXTRA: Implementar algoritmo do slide 17 para validar a combinação de abre/fecha parênteses,
