@@ -22,7 +22,7 @@ Problemas Estruturados em Computação do curso de Engenharia de Software da PUC
    6), pop(), pop(), push(4), pop(), pop()
    Qual será o conteúdo da pilha ao final dessas operações?
    Re****sposta: **5**
-6) [ ] 6. EXTRA: Implementar algoritmo do slide 17 para validar a combinação de abre/fecha parênteses,
+6) [X] 6. EXTRA: Implementar algoritmo do slide 17 para validar a combinação de abre/fecha parênteses,
    colchetes e chaves de uma expressão.
 
 **Referência:**

@@ -7,9 +7,16 @@ public class MainApp {
             System.out.println(); //Apenas para limpar meu console
         }
 
-        StringUtils s = new StringUtils();
-        System.out.println(s.reverse("string") + "\tExpected: gnirts");
-        System.out.println(s.reverse("Gabriel") + "\tExpected: leirbaG");
+        Parenteses p = new Parenteses();
+        System.out.println(p.process("()()(()){([])}") + "\tExpected: true");
+        System.out.println(p.process("(}") + "\tExpected: false");
+        System.out.println(p.process("())") + "\tExpected: false");
+        System.out.println(p.process("(()") + "\tExpected: false");
+
+
+        // StringUtils s = new StringUtils();
+        // System.out.println(s.reverse("string") + "\tExpected: gnirts");
+        // System.out.println(s.reverse("Gabriel") + "\tExpected: leirbaG");
 
 
         // Pilha pilha = new PilhaArray(10);
